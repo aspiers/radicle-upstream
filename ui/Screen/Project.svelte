@@ -60,7 +60,6 @@
 
 <SidebarLayout dataCy="project-screen">
   <Remote {store} let:data={{ peerSelection, project, selectedPeer }}>
-    {console.log(project)}
     <Header.Large
       urn={project.urn}
       name={project.metadata.name}
