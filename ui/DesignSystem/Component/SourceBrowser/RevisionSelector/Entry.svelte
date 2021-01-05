@@ -64,6 +64,6 @@
   {/if}
   <p class="revision-name typo-overflow-ellipsis">{revision.name}</p>
   {#if defaultBranch}
-    <Badge variant={BadgeType.defaultBranch} />
+    <Badge variant={BadgeType.DefaultBranch} />
   {/if}
 </div>

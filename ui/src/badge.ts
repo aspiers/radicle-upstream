@@ -1,4 +1,4 @@
 export enum BadgeType {
   Maintainer = "maintainer",
-  defaultBranch = "default",
+  DefaultBranch = "default",
 }
